@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-19T13:54:57 CST" name="Default suite" finished-at="2026-05-19T13:55:06 CST" duration-ms="8524">
+    <groups>
+    </groups>
+    <test started-at="2026-05-19T13:54:57 CST" name="Default test" finished-at="2026-05-19T13:55:06 CST" duration-ms="8524">
+      <class name="fw_JavaAutomationSelenium_Tests.Tc1_Agregar_producto_nuevo_al_stock">
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:fw_JavaAutomationSelenium_Tests.Tc1_Agregar_producto_nuevo_al_stock@64dafeed]" started-at="2026-05-19T13:54:57 CST" name="BeforeClass" finished-at="2026-05-19T13:55:02 CST" duration-ms="4150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:fw_JavaAutomationSelenium_Tests.Tc1_Agregar_producto_nuevo_al_stock@64dafeed]" started-at="2026-05-19T13:55:02 CST" name="BeforeMethod" finished-at="2026-05-19T13:55:02 CST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="Tc1_Agregar_producto_nuevo_al_stock()[pri:0, instance:fw_JavaAutomationSelenium_Tests.Tc1_Agregar_producto_nuevo_al_stock@64dafeed]" started-at="2026-05-19T13:55:02 CST" name="Tc1_Agregar_producto_nuevo_al_stock" finished-at="2026-05-19T13:55:05 CST" duration-ms="3342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc1_Agregar_producto_nuevo_al_stock -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:fw_JavaAutomationSelenium_Tests.Tc1_Agregar_producto_nuevo_al_stock@64dafeed]" started-at="2026-05-19T13:55:05 CST" name="AfterMethod" finished-at="2026-05-19T13:55:05 CST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:fw_JavaAutomationSelenium_Tests.Tc1_Agregar_producto_nuevo_al_stock@64dafeed]" started-at="2026-05-19T13:55:05 CST" name="AfterClass" finished-at="2026-05-19T13:55:06 CST" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- fw_JavaAutomationSelenium_Tests.Tc1_Agregar_producto_nuevo_al_stock -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

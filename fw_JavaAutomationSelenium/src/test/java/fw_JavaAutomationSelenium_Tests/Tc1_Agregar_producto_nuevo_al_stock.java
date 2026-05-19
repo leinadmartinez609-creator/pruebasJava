@@ -23,6 +23,8 @@ public class Tc1_Agregar_producto_nuevo_al_stock {
 	String Precio = le.leerCeldaPorColumna(rutaDataProvider,1, "Precio");
 	String Nombre_Test_Case = "TC1_Agregar_producto_nuevo_al_stock";
 	
+	String Automatizador = "Axel Martinez";
+	
 	WebDriver driver;
 	
 	
@@ -37,10 +39,10 @@ public class Tc1_Agregar_producto_nuevo_al_stock {
 	
 	@BeforeMethod
 	public void BeforeMethod() {
-		re.iniciarDocumento(driver);
+		re.iniciarDocumento(driver,Nombre_Test_Case,Automatizador);
 	}
 
-	//Este Test prueba TESTNG en una pagina de practica para pruebas QA
+	
 	@Test	
 	public void Tc1_Agregar_producto_nuevo_al_stock() throws InterruptedException {
 	

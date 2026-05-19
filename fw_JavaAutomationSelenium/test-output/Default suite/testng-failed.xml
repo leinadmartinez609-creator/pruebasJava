@@ -6,6 +6,8 @@
       <class name="fw_JavaAutomationSelenium_Tests.Tc1_Agregar_producto_nuevo_al_stock">
         <methods>
           <include name="Tc1_Agregar_producto_nuevo_al_stock"/>
+          <include name="BeforeMethod"/>
+          <include name="AfterMethod"/>
           <include name="AfterClass"/>
           <include name="BeforeClass"/>
         </methods>

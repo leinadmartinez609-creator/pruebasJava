@@ -55,6 +55,17 @@ public class ClaseBase {
     	elemento.click();
     }
     
+    
+    public boolean Buscar_Texto_Dentro_de_Cadena(String Cadena, String Texto) {
+    	
+    	if(Cadena.contains(Texto)) {
+    		return true;
+    	}else {
+    		return false;
+    	}
+    }
+    
+    
    public void goTO(String url) {
 		WebDriver driver;
 		driver = new ChromeDriver();

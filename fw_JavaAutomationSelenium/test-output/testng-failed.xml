@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="fw_JavaAutomationSelenium_Tests.Tc1_Agregar_producto_nuevo_al_stock">
+      <class name="ParaBank.Tc1_Registrar_nuevo_usuario">
         <methods>
-          <include name="Tc1_Agregar_producto_nuevo_al_stock"/>
+          <include name="Tc1_Registrar_nuevo_usuario"/>
           <include name="BeforeMethod"/>
           <include name="AfterMethod"/>
           <include name="AfterClass"/>
           <include name="BeforeClass"/>
         </methods>
-      </class> <!-- fw_JavaAutomationSelenium_Tests.Tc1_Agregar_producto_nuevo_al_stock -->
+      </class> <!-- ParaBank.Tc1_Registrar_nuevo_usuario -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,17 +1,13 @@
 package fw_JavaAutomationSelenium_Tests;
 
 import static org.testng.Assert.assertTrue;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import fw_JavaAutomationSelenium_Pages.CommitQuality;
-
 import org.testng.annotations.*;
 import org.testng.annotations.Test;
-
 import Utils.DataProvider;
 import Utils.ReportesEvidencia;
-
 import org.testng.Assert;
 
 
@@ -19,12 +15,14 @@ public class Tc1_Agregar_producto_nuevo_al_stock {
 	DataProvider le = new DataProvider();
 	ReportesEvidencia re = new ReportesEvidencia();
 	String rutaDataProvider =  "src/test/resources/DataProvider/CommitQuality/Tc1_CommitQuality.xlsx";
+	
+	
 	String Jabon =le.leerCeldaPorColumna(rutaDataProvider,1, "Nombre_Producto");
 	String Precio = le.leerCeldaPorColumna(rutaDataProvider,1, "Precio");
 	String Nombre_Test_Case = "TC1_Agregar_producto_nuevo_al_stock";
 	
-	String Automatizador = "Axel Martinez";
 	
+	String Automatizador = "Axel Martinez";
 	WebDriver driver;
 	
 	
@@ -32,7 +30,7 @@ public class Tc1_Agregar_producto_nuevo_al_stock {
 	@BeforeClass
 	public void BeforeClass() {
 		driver = new ChromeDriver();
-		driver.get("https://commitquality.com");
+		driver.get("https://commitquality.com"); 
 		driver.manage().window().maximize();
 		
 	}

@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-19T15:27:58 CST" name="Default suite" finished-at="2026-05-19T15:28:06 CST" duration-ms="8246">
+  <suite started-at="2026-05-26T12:35:55 CST" name="Default suite" finished-at="2026-05-26T12:36:18 CST" duration-ms="22821">
     <groups>
     </groups>
-    <test started-at="2026-05-19T15:27:58 CST" name="Default test" finished-at="2026-05-19T15:28:06 CST" duration-ms="8246">
-      <class name="fw_JavaAutomationSelenium_Tests.Tc1_Agregar_producto_nuevo_al_stock">
-        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:fw_JavaAutomationSelenium_Tests.Tc1_Agregar_producto_nuevo_al_stock@64dafeed]" started-at="2026-05-19T15:27:58 CST" name="BeforeClass" finished-at="2026-05-19T15:28:02 CST" duration-ms="4004" status="PASS">
+    <test started-at="2026-05-26T12:35:55 CST" name="Default test" finished-at="2026-05-26T12:36:18 CST" duration-ms="22821">
+      <class name="ParaBank.Tc1_Registrar_nuevo_usuario">
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:ParaBank.Tc1_Registrar_nuevo_usuario@7a527389]" started-at="2026-05-26T12:35:55 CST" name="BeforeClass" finished-at="2026-05-26T12:36:11 CST" duration-ms="15722" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:fw_JavaAutomationSelenium_Tests.Tc1_Agregar_producto_nuevo_al_stock@64dafeed]" started-at="2026-05-19T15:28:02 CST" name="BeforeMethod" finished-at="2026-05-19T15:28:02 CST" duration-ms="626" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:ParaBank.Tc1_Registrar_nuevo_usuario@7a527389]" started-at="2026-05-26T12:36:11 CST" name="BeforeMethod" finished-at="2026-05-26T12:36:12 CST" duration-ms="917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="Tc1_Agregar_producto_nuevo_al_stock()[pri:0, instance:fw_JavaAutomationSelenium_Tests.Tc1_Agregar_producto_nuevo_al_stock@64dafeed]" started-at="2026-05-19T15:28:02 CST" name="Tc1_Agregar_producto_nuevo_al_stock" finished-at="2026-05-19T15:28:05 CST" duration-ms="2769" status="PASS">
+        <test-method signature="Tc1_Registrar_nuevo_usuario()[pri:0, instance:ParaBank.Tc1_Registrar_nuevo_usuario@7a527389]" started-at="2026-05-26T12:36:12 CST" name="Tc1_Registrar_nuevo_usuario" finished-at="2026-05-26T12:36:17 CST" duration-ms="5625" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Tc1_Agregar_producto_nuevo_al_stock -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:fw_JavaAutomationSelenium_Tests.Tc1_Agregar_producto_nuevo_al_stock@64dafeed]" started-at="2026-05-19T15:28:05 CST" name="AfterMethod" finished-at="2026-05-19T15:28:05 CST" duration-ms="281" status="PASS">
+        </test-method> <!-- Tc1_Registrar_nuevo_usuario -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:ParaBank.Tc1_Registrar_nuevo_usuario@7a527389]" started-at="2026-05-26T12:36:17 CST" name="AfterMethod" finished-at="2026-05-26T12:36:17 CST" duration-ms="221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="AfterClass()[pri:0, instance:fw_JavaAutomationSelenium_Tests.Tc1_Agregar_producto_nuevo_al_stock@64dafeed]" started-at="2026-05-19T15:28:05 CST" name="AfterClass" finished-at="2026-05-19T15:28:06 CST" duration-ms="451" status="PASS">
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:ParaBank.Tc1_Registrar_nuevo_usuario@7a527389]" started-at="2026-05-26T12:36:17 CST" name="AfterClass" finished-at="2026-05-26T12:36:18 CST" duration-ms="227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass -->
-      </class> <!-- fw_JavaAutomationSelenium_Tests.Tc1_Agregar_producto_nuevo_al_stock -->
+      </class> <!-- ParaBank.Tc1_Registrar_nuevo_usuario -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

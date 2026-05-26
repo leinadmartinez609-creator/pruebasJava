@@ -36,7 +36,7 @@ public class ReportesEvidencia {
             XWPFParagraph subtitulo = documento.createParagraph();
             subtitulo.setAlignment(ParagraphAlignment.CENTER);
             XWPFRun runSubtitulo = subtitulo.createRun();
-            runSubtitulo.setText("Generado automáticamente por el Framework de Automatización");
+            runSubtitulo.setText("Design By: Axel Martinez");
             runSubtitulo.setFontSize(11);
             runSubtitulo.setItalic(true);
             runSubtitulo.setFontFamily("Arial");
@@ -45,7 +45,7 @@ public class ReportesEvidencia {
             // 3. SECCIÓN 1: DETALLES DE LA EJECUCIÓN
             XWPFParagraph seccion1 = documento.createParagraph();
             XWPFRun runSeccion1 = seccion1.createRun();
-            runSeccion1.setText("1. Detalles de la Ejecución");
+            runSeccion1.setText("a). Detalles de la Ejecución");
             runSeccion1.setBold(true);
             runSeccion1.setFontSize(13);
             runSeccion1.setFontFamily("Arial");
@@ -77,7 +77,7 @@ public class ReportesEvidencia {
             // 5. SECCIÓN 2: TÍTULO DE PASOS
             XWPFParagraph seccion2 = documento.createParagraph();
             XWPFRun runSeccion2 = seccion2.createRun();
-            runSeccion2.setText("2. Pasos del Caso de Prueba y Evidencia Visual");
+            runSeccion2.setText("b). Pasos del Caso de Prueba y Evidencia Visual");
             runSeccion2.setBold(true);
             runSeccion2.setFontSize(13);
             runSeccion2.setFontFamily("Arial");
@@ -134,7 +134,7 @@ public class ReportesEvidencia {
     
     
     public static void guardarDocumento(String nombrePrueba) {
-        String carpetaEvidencias = "src/test/resources/Evidencias/CommitQuality/";
+        String carpetaEvidencias = "src/test/resources/Evidencias/ParaBank/";
         
         // Nos aseguramos de que la carpeta exista, si no, la crea
         java.io.File carpeta = new java.io.File(carpetaEvidencias);
